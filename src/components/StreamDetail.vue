@@ -100,7 +100,7 @@
           <select v-model="paymentMethod" required>
             <option disabled value="">Select a payment method</option>
             <option value="credit_card">Credit Card</option>
-            <option value="virtual_account">Virtual Account</option>
+            <option value="paypal">Virtual Account</option>
             <option value="bank_transfer">Bank Transfer</option>
           </select>
           <button @click="submitDonation" class="btn">Submit Donation</button>
